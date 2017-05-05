@@ -10,6 +10,8 @@ var Miermbro2 = new MiembroSquad("Cote", "Rodrigez",32,"Ver series , Bailar");
 var Miermbro3 = new MiembroSquad("Francisca", "Ojeda",28,"Rollerderby");
 var Miermbro4 = new MiembroSquad("Maria Jose", "Pozo",31,"Bailar");
 var Miermbro5 = new MiembroSquad("Carolina", "Tapia",27,"Trekking");
+var Miermbro6 = new MiembroSquad("Antonia", "Cerda",23,"Diseñar");
+var Miermbro7 = new MiembroSquad("Camila", "Saes",24,"Origami");
 
 var resultado = document.getElementById("mostrar1");
 var muestra = ("Nombre: " + Miermbro1.nombre + "<br> " + "Apellido: " + Miermbro1.apellido + "<br> " + "Edad: " + Miermbro1.edad + "<br> " +  "Hobbie: " + Miermbro1.hobbies);
@@ -29,4 +31,12 @@ resultado.innerHTML = muestra;
 
 var resultado = document.getElementById("mostrar5");
 var muestra = ("Nombre: " + Miermbro5.nombre + "<br> " + "Apellido: " + Miermbro5.apellido + "<br> " + "Edad: " + Miermbro5.edad + "<br> " +  "Hobbie: " + Miermbro5.hobbies);
+resultado.innerHTML = muestra;
+
+var resultado = document.getElementById("mostrar6");
+var muestra = ("Nombre: " + Miermbro6.nombre + "<br> " + "Apellido: " + Miermbro6.apellido + "<br> " + "Edad: " + Miermbro6.edad + "<br> " +  "Hobbie: " + Miermbro6.hobbies);
+resultado.innerHTML = muestra;
+
+var resultado = document.getElementById("mostrar7");
+var muestra = ("Nombre: " + Miermbro7.nombre + "<br> " + "Apellido: " + Miermbro7.apellido + "<br> " + "Edad: " + Miermbro7.edad + "<br> " +  "Hobbie: " + Miermbro7.hobbies);
 resultado.innerHTML = muestra;
